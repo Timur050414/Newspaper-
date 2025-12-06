@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 
 .header {
@@ -46,7 +47,6 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 
-/* Main */
 .main {
     background-color: #fdd875;
     padding-top: 80px;
@@ -103,12 +103,12 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .news-list {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
 }
 
 .new {
-    width: 330px;
     padding: 15px;
     background-color: #fff;
     border: 1px solid rgb(224, 223, 223);
@@ -135,8 +135,6 @@ img {
 }
 
 
-
-/* Footer */
 .footer {
     background-color: #aa43a2;
     padding: 30px 0;
@@ -161,6 +159,8 @@ img {
 .tel {
     margin-right: 20px;
 }
+
+
 
 
 
